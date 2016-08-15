@@ -21,5 +21,5 @@ def get_record(r):
 
 
 if __name__ == '__main__':
-    r = requests.get('http://ilsnext.sandbox.kohalibrary.com/api/work/35736')
+    r = requests.get('http://govtest.sandbox.kohalibrary.com/api/work/12345')
     record = get_record(r)
