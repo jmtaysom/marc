@@ -2,8 +2,6 @@ import requests
 import json
 from pymarc import JSONReader
 
-
-
 def get_record(r):
     rjson =r.json()
     marc = rjson['marc']
